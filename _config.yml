@@ -1,0 +1,60 @@
+# Site
+repository: FanaticKyo/fanatickyo.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: Sheng Xu
+title: Current Master Student at CMU
+email: shengxu@andrew.cmu.edu
+phone: +1 (412)-209-5679 | +86 130-5280-5056
+# website: 
+
+# Social links
+# twitter_username: facespics
+github_username:  FanaticKyo
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: fanatickyo
+linkedin_username: sheng-xu-472712138
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Sheng and I'm a master student who majors in Information Technology at CMU.
+
+  My interest is in: <mark>Deep Learning</mark> and <mark>Data Science</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Music - Violin, Guitar, Drum
+   - Gaming - Master in FPS & Noob in MOBA
+   - Watching Anmation
+   - Eating!!!
+
+# Footer
+footer_show_references: true
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

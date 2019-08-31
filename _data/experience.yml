@@ -1,0 +1,33 @@
+- layout: left
+  company: Wilshire Associates
+  link: www.wilshire.com
+  job_title: Applied Research Intern
+  dates: June 2017 - August 2017
+  description: | # this will include new lines to allow paragraphs
+    -- 与应用研究部门，数据管理部门，算法开发部门合作完成日常任务
+    
+    -- 帮助收集，分析数据，与测试团队沟通，保证原始数据的质量能够和产品相结合
+    
+    -- 测试wilshire的产品，并从用户角度对数据质量，产品功能，使用流程进行评估 
+
+- layout: left
+  company: 普华永道 - PwC
+  link: www.pwccn.com
+  job_title: Tax Advisory Intern
+  dates: January 2017 - March 2017
+  description: | # this will include new lines to allow paragraphs
+    -- 为客户提供税务规划与咨询服务
+
+    -- 帮助企业核查公司税务状况并进行转移定价
+
+    -- 与审计部门合作对公司税务进行审计
+
+- layout: left
+  company: 上海银行 - Bank of Shanghai
+  link: www.bosc.cn
+  job_title: International Department Intern
+  dates: June 2016 - August 2016
+  description: | # this will include new lines to allow paragraphs
+    -- 对企业金融数据进行分析并完成财务尽职调查
+
+    -- 对企业外汇业务进行风险评估

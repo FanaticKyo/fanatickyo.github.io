@@ -1,0 +1,103 @@
+- layout: left
+  name: Carnegie Mellon University
+  dates: 2018 - 2020
+  qualification: MSc Information Technology
+  quote: >
+    My Heart is in the work.
+  description: | # this will include new lines to allow paragraphs
+    相关课程 (Relative Courseworks)
+      
+    -- 非结构数据分析 - Unstructured Data Analysis
+
+      <mark>语义分析 - Sentiment Analysis</mark>
+      
+      <mark>主题模型 - Topic Modeling</mark>
+      
+      <mark>图像识别 - Image Recognition (CV)</mark>
+      
+      <mark>期货价格预测 - Commodity Price Prediction</mark>
+      
+    -- 数据库管理 - Database Management (Oracle, Cassandra, MongoDB)
+      
+    -- 数据挖掘 - Data Mining
+      
+    -- 机器学习算法 - Machine Learning Algorithms
+    
+      <mark>分类 - Classification (DT, kNN, Perceptron, SVMs)</mark>
+      
+      <mark>聚类 - Clustering (kMeans, GMM)</mark>
+      
+      <mark>关联分析 - Association Rules (Apriori)</mark>
+    
+      <mark>数据降维 - Dimensional Reduction (PCA, t-SNE, LDA, Isomap)</mark>
+      
+    -- 面向对象编程 - Object Oriented Programming (Java)
+      
+    -- 深度学习 - Deep Learning
+
+      <mark>卷积神经网络 - CNN (Alexnet, Inception, VGG)</mark>
+      
+      <mark>递归神经网络 - RNN (CTC, BPTT, LSTM, GRU)</mark>
+      
+      <mark>注意力模型 - Attention Model</mark>
+      
+      <mark>Hopfield神经网络</mark>
+      
+      <mark>玻尔兹曼机 - Boltzmann machine (RBMs, DBMs)</mark>
+      
+      <mark>生成对抗网络 (GANs)</mark>
+      
+      <mark>强化学习 - Reinforcement Learning (Markov Process, TD Learning, SARSA)</mark>
+      
+      <mark>Q Learning & Deep Q Learning</mark>
+      
+    -- Python编程 - Data Focused Python
+      
+    -- 数据结构与算法 - Data Structure & Algorithms (Java)
+      
+    -- 学习常用算法 (Big O, Finite State Machines, Searching, Sorting, Trees, Graphs)
+      
+    -- 网页应用开发 - Web Application Development (JavaScript)
+      
+    -- 物联网 - Internet of Things (IoT)
+
+      <mark>对Particle Photon物联网开发板进行开发 - Programming with Particle Photon</mark>
+      
+      <mark>熟练使用Ajax, WebSocket, XMPP, MQTT协议 - Using Protocols</mark>
+      
+      <mark>REST, CoAP</mark>
+      
+    -- 大数据与大规模计算 - Big Data & Large Scale Computing
+
+      <mark>使用Apache Hadoop编写MapReduce</mark>
+      
+      <mark>使用Apache Spark进行大规模并行计算与分析</mark>
+      
+    -- Linux与开源协议 - Linux & Open Source
+  
+- layout: left  
+  name: 上海外国语大学(SISU)
+  dates: 2014 - 2018
+  qualification: BSc Accounting
+  quote: >
+    格高志远 学贯中外
+  description: |
+    相关课程 (Relative Courseworks)
+
+    -- 中级财务会计 - Intermediate Financial Accounting
+    
+    -- 高级财务会计 - Advanced Accounting
+    
+    -- 管理信息系统 - Management Information System
+    
+    -- 投资学 - Investment
+    
+    -- 宏观经济学 - Macroeconomics
+    
+    -- 微观经济学 - Microeconomics
+    
+    -- 微积分 - Calculus
+    
+    -- 线性代数 - Linear Algebra
+    
+    -- 管理会计 - Management Accounting
