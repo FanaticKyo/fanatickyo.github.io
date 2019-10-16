@@ -46,7 +46,8 @@ more_content: | # this will include new lines to allow paragraphs
    - Esports - Master in FPS & Noob in MOBA
    - Watching Animation
    - Eating
-  |
+   
+more_content: > 
   I can speak excellent Madarin, fluent English, a little Japanese, and Sou-tseu ghé-ghô :)
 
 
