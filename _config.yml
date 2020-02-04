@@ -6,7 +6,7 @@ repository: FanaticKyo/fanatickyo.github.io
 name: Sheng Xu - 许晟
 title: Current Master Student at CMU
 email: shengxu@andrew.cmu.edu
-phone: +1 (412)-209-5679 | +86 130-5280-5056
+phone: +1 (412)-209-5679 | +86 130-5280-5056 | +61 498-078-852
 # website: 
 
 # Social links
@@ -27,7 +27,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sheng and I'm a master student who majors in Information Technology at CMU.
 
-  My interest is in: <mark>Deep Learning</mark> and <mark>Data Science</mark>
+  My interest is in: <mark>Deep Learning</mark> and <mark>NLP</mark>
 
 # Projects Section
 # projects_title: Projects
