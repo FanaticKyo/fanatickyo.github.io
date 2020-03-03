@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+<head>
+</head>
+
+<body>
+    <canvas id="myChart1" width="2000" height="400"></canvas>
+    <canvas id="myChart2" width="2000" height="400"></canvas>
+    <canvas id="myChart3" width="2000" height="400"></canvas>
+    <canvas id="myChart4" width="2000" height="400"></canvas>
+    <canvas id="myChart5" width="2000" height="400"></canvas>
+
+    <script>
+        var stu_time = 60;
+        var avg_time = 110;
+
+        var stu_shape = 8;
+        var avg_shape = 9.54;
+
+        var stu_color = 1;
+        var avg_color = 2.62;
+
+        var stu_mesh = 2;
+        var avg_mesh = 3.25;
+
+        var stu_scale = 1;
+        var avg_scale = 5.29;
+
+        var ctx1 = document.getElementById('myChart1').getContext('2d');
+        var ctx2 = document.getElementById('myChart2').getContext('2d');
+        var ctx3 = document.getElementById('myChart3').getContext('2d');
+        var ctx4 = document.getElementById('myChart4').getContext('2d');
+        var ctx5 = document.getElementById('myChart5').getContext('2d');
+
+
+        var c1 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
+        var c2 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
+        var c3 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
+        var c4 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
+        var c5 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
+
+        var myChart1 = new Chart(ctx1, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['This Student', 'Average'],
+                datasets: [{
+                    label: 'Edit Time',
+                    data: [stu_time, avg_time],
+                    backgroundColor: [
+                        c1 + '1)',
+                        c1 + '0.5)'
+                    ],
+                    borderColor: [
+                        c1 + '1)',
+                        c1 + '0.5)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        var myChart2 = new Chart(ctx2, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['This Student', 'Average'],
+                datasets: [{
+                    label: 'Number of Shapes Used',
+                    data: [stu_shape, avg_shape],
+                    backgroundColor: [
+                        c2 + '1)',
+                        c2 + '0.5)'
+                    ],
+                    borderColor: [
+                        c2 + '1)',
+                        c2 + '0.5)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        var myChart3 = new Chart(ctx3, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['This Student', 'Average'],
+                datasets: [{
+                    label: 'Number of Colors Used',
+                    data: [stu_color, avg_color],
+                    backgroundColor: [
+                        c3 + '1)',
+                        c3 + '0.5)'
+                    ],
+                    borderColor: [
+                        c3 + '1)',
+                        c3 + '0.5)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        var myChart4 = new Chart(ctx4, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['This Student', 'Average'],
+                datasets: [{
+                    label: 'Number of Unique Meshes',
+                    data: [stu_mesh, avg_mesh],
+                    backgroundColor: [
+                        c4 + '1)',
+                        c4 + '0.5)'
+                    ],
+                    borderColor: [
+                        c4 + '1)',
+                        c4 + '0.5)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        var myChart5 = new Chart(ctx5, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['This Student', 'Average'],
+                datasets: [{
+                    label: 'Number of Unique Scales',
+                    data: [stu_scale, avg_scale],
+                    backgroundColor: [
+                        c5 + '1)',
+                        c5 + '0.5)'
+                    ],
+                    borderColor: [
+                        c5 + '1)',
+                        c5 + '0.5)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+        
+    </script>
+</body>
+
+</html>
