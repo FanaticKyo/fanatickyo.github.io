@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <style>
+        .design {
+            width: 75%;
+            height: 75%;
+        }
+    </style>
 </head>
 
 <body>
     <a href="https://dash.makersempire.com/designs/riley123456789abcdefghijklmnopqrz123456-the-tree-house/glb">
         <center>
-            <img src="https://makersempireprd.blob.core.windows.net/assets/img/design/267/267f30e5-8be3-40a1-9021-e6c43be93056.jpg"
-                alt="Design 8258045" width="768" height="768">
+            <img class="design"
+                src="https://makersempireprd.blob.core.windows.net/assets/img/design/267/267f30e5-8be3-40a1-9021-e6c43be93056.jpg">
         </center>
     </a>
-    <canvas id="mixedChart" width="768" height="350"></canvas>
-    <canvas id="timeChart" width="768" height="120"></canvas>
+    <canvas id="mixedChart"></canvas>
+    <canvas id="timeChart" height="50"></canvas>
 
     <script>
         var stu_time = 90;
@@ -35,13 +41,10 @@
         var mixedctx = document.getElementById('mixedChart').getContext('2d');
         var c1 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
         var c2 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
-        var c3 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
-        var c4 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
-        var c5 = 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ','
         var mixedChart = new Chart(mixedctx, {
             type: 'horizontalBar',
             data: {
-                labels: ['Number of Unique Scales', 'Number of Shapes Used', 'Number of Colors Used', 'Number of Unique Meshes'],
+                labels: ['# of Unique Scales', '# of Shapes Used', '# of Colors Used', '# of Unique Meshes'],
                 datasets: [{
                     label: 'This Student',
                     data: [stu_scale, stu_shape, stu_color, stu_mesh],
@@ -71,12 +74,17 @@
                         ticks: {
                             beginAtZero: true
                         }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            fontSize: 20
+                        }
                     }]
                 },
                 legend: {
                     labels: {
                         // This more specific font property overrides the global property
-                        fontSize: 20
+                        fontSize: 18
                     }
                 }
             }
@@ -99,7 +107,7 @@
                         c2 + '0.5)'
                     ]
                 }
-            ]
+                ]
             },
             options: {
                 scales: {
@@ -107,13 +115,18 @@
                         ticks: {
                             beginAtZero: true
                         }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            fontSize: 20
+                        }
                     }]
-                    
+
                 },
                 legend: {
                     labels: {
                         // This more specific font property overrides the global property
-                        fontSize: 20
+                        fontSize: 18
                     }
                 }
             }
