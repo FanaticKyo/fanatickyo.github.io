@@ -41,37 +41,25 @@
         var mixedChart = new Chart(mixedctx, {
             type: 'horizontalBar',
             data: {
-                labels: ['This Student', 'Average'],
+                labels: ['Number of Unique Scales', 'Number of Shapes Used', 'Number of Colors Used', 'Number of Unique Meshes'],
                 datasets: [{
-                    label: 'Number of Unique Scales',
-                    data: [stu_scale, avg_scale],
+                    label: 'This Student',
+                    data: [stu_scale, stu_shape, stu_color, stu_mesh],
                     backgroundColor: [
-                        c5 + '1)',
-                        c5 + '0.5)'
+                        c1 + '1)',
+                        c1 + '1)',
+                        c1 + '1)',
+                        c1 + '1)'
                     ]
                 },
                 {
-                    label: 'Number of Shapes Used',
-                    data: [stu_shape, avg_shape],
+                    label: 'Average',
+                    data: [avg_scale, avg_shape, avg_color, avg_mesh],
                     backgroundColor: [
-                        c2 + '1)',
+                        c2 + '0.5)',
+                        c2 + '0.5)',
+                        c2 + '0.5)',
                         c2 + '0.5)'
-                    ]
-                },
-                {
-                    label: 'Number of Colors Used',
-                    data: [stu_color, avg_color],
-                    backgroundColor: [
-                        c3 + '1)',
-                        c3 + '0.5)'
-                    ]
-                },
-                {
-                    label: 'Number of Unique Meshes',
-                    data: [stu_mesh, avg_mesh],
-                    backgroundColor: [
-                        c4 + '1)',
-                        c4 + '0.5)'
                     ]
                 }
 
@@ -96,20 +84,22 @@
         var timeChart = new Chart(timectx, {
             type: 'horizontalBar',
             data: {
-                labels: ['This Student', 'Average'],
+                labels: ['Edit Time'],
                 datasets: [{
-                    label: 'Edit Time',
-                    data: [stu_time, avg_time],
+                    label: 'This Student',
+                    data: [stu_time,],
                     backgroundColor: [
-                        c1 + '1)',
-                        c1 + '0.5)'
-                    ],
-                    borderColor: [
-                        c1 + '1)',
-                        c1 + '0.5)'
-                    ],
-                    borderWidth: 1
-                }]
+                        c1 + '1)'
+                    ]
+                },
+                {
+                    label: 'Average',
+                    data: [avg_time],
+                    backgroundColor: [
+                        c2 + '0.5)'
+                    ]
+                }
+            ]
             },
             options: {
                 scales: {
