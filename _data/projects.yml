@@ -37,3 +37,33 @@
     -- Improved the stability and fluency of the output video using smoothing and Deblur GAN
     
     -- Supported a more flexible warping from multiple sources compared to the traditional methods such as Nearest Neighbour
+
+- layout: left
+  name: Automatic Question Generation and Answering System
+  link: youtube.com/watch?v=M4sZqee2yX8&t=7s
+  dates: August 2019
+  github: FanaticKyo/Automatic_Ques_Generation_Answering
+  description: |
+    -- Built a Natural Language Processing system that could generate and answer questions from given documents
+
+    -- Implemented common NLP methods (Bag-of-words, NER, POS Tagging, Smoothing, PCFG, Constituency Parsing, Coreference)
+
+    -- Determined the similarity between generated questions and given questions using word embeddings(XLNet)
+
+    -- Generated N best sentences ranking over their perplexity
+
+    -- Packed up the system into a Docker image that can be fast deployed and run
+
+- layout: left
+  name: Sales Forecasting of Recreational Vehicles
+  link: fanatickyo.github.io/Caravan_Report.pdf
+  dates: May 2019
+#  github: FanaticKyo/Automatic_Ques_Generation_Answering
+  description: |
+    -- Cooperated with Binder Dijker Ottezz (BDO) consulting department
+
+    -- Analyzed the trend of recreational vehicles registration by visualizing the relationship between registration number and outside factors through ten years using Tableau
+
+    -- Designed a data warehouse to store all of the preprocessed data
+
+    -- Built a bidirectional RNN model to predict the future monthly sales
