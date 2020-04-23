@@ -10,3 +10,16 @@
 
     -- Reached 0.92 AUC score on the test verification image set
 
+- layout: left
+  name: Deep Learning - Speech Recognition
+#   link: github.com/sproogen
+  dates: Oct 2019
+  github: FanaticKyo/Speech_Recognition/blob/master/LAS.ipynb
+  description: |
+    -- Classified the phoneme state labels for each audio recording using supervised deep learning network
+
+    -- Designed an attention-based LAS model with Pyramidal Bi-LSTM listener encoder, speller decoder, teacher forcing, and Gumbel noise
+
+    -- Implemented beam search to decode the prediction distribution
+
+    -- Reached a result of less than 10 Levenshtein distance on WSJ test set
