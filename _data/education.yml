@@ -1,4 +1,4 @@
-- layout: left
+- layout: top-middle
   name: Carnegie Mellon University
   dates: 2018 - 2020
   qualification: MSc Information Technology | GPA 3.79
@@ -93,7 +93,7 @@
       
     -- Linux & Open Source
   
-- layout: left  
+- layout: top-middle
   name: 上海外国语大学(SISU)
   dates: 2014 - 2018
   qualification: BSc Accounting

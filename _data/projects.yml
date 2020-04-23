@@ -1,10 +1,12 @@
 - layout: top-middle
   name: Face Classification and Verification Using ResNet Like CNN
 #   link: github.com/sproogen
+  dates: Nov 2019
   github: FanaticKyo/Image_Recognition
-  quote: |
+  description: |
     -- Built and optimized a CNN model with residual blocks to reach a 85% classification accuracy on the test set
     
     -- Implemented centre loss function to the network to improve the performance on the generated face embeddings
 
     -- Reached 0.92 AUC score on the test verification image set
+
