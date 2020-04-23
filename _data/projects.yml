@@ -1,7 +1,7 @@
 - layout: left
   name: Face Classification and Verification Using ResNet Like CNN
 #   link: github.com/sproogen
-  dates: Nov 2019
+  dates: November 2019
   github: FanaticKyo/Image_Recognition
   description: |
     -- Built and optimized a CNN model with residual blocks to reach a 85% classification accuracy on the test set
@@ -13,7 +13,7 @@
 - layout: left
   name: Deep Learning - Speech Recognition
 #   link: github.com/sproogen
-  dates: Oct 2019
+  dates: October 2019
   github: FanaticKyo/Speech_Recognition/blob/master/LAS.ipynb
   description: |
     -- Classified the phoneme state labels for each audio recording using supervised deep learning network
@@ -23,3 +23,17 @@
     -- Implemented beam search to decode the prediction distribution
 
     -- Reached a result of less than 10 Levenshtein distance on WSJ test set
+
+- layout: left
+  name: Human Motion Imitation Using Conditional GAN
+  link: https://fanatickyo.github.io/HMI_Report.pdf
+  dates: September 2019
+#  github: FanaticKyo/Speech_Recognition/blob/master/LAS.ipynb
+  description: |
+    -- Synthesized video based on source image (full body) and reference poses such as dancing videos
+
+    -- Developed the new model using Nvidia Pix2PixHD, VGG, ResNet, and Face GAN
+
+    -- Improved the stability and fluency of the output video using smoothing and Deblur GAN
+    
+    -- Supported a more flexible warping from multiple sources compared to the traditional methods such as Nearest Neighbour
