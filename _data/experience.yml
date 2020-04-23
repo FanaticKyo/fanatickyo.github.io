@@ -1,4 +1,16 @@
 - layout: left
+  company: Makers Empire
+  link: www.makersempire.com
+  job_title: Data Science Intern
+  dates: Feb 2020 - May 2020
+  description: | # this will include new lines to allow paragraphs
+    -- Worked on a PostgreSQL that contains 1+ billion records of 3D designs
+    
+    -- Created a recommendation system that automatically generates feedbacks for teachers to select as assessments to the students’ works
+    
+    -- Built and intergrated design statistical visualization panel and 3D object preview with the existing rails page
+
+- layout: left
   company: Wilshire Associates
   link: www.wilshire.com
   job_title: Applied Research Intern
