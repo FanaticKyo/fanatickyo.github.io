@@ -26,7 +26,7 @@
 
 - layout: left
   name: Human Motion Imitation Using Conditional GAN
-  link: fanatickyo.github.io/HMI_Report.pdf
+  link: fanatickyo.github.io/documents/HMI_Report.pdf
   dates: September 2019
 #  github: FanaticKyo/Speech_Recognition/blob/master/LAS.ipynb
   description: |
@@ -56,7 +56,7 @@
 
 - layout: left
   name: Sales Forecasting of Recreational Vehicles
-  link: fanatickyo.github.io/Caravan_Report.pdf
+  link: fanatickyo.github.io/documents/Caravan_Report.pdf
   dates: May 2019
 #  github: FanaticKyo/Automatic_Ques_Generation_Answering
   description: |
